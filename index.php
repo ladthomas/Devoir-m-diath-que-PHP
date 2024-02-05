@@ -21,7 +21,7 @@
             $movie->addRating(4);
             echo "<p>" . $movie->getTitle() . " est " . ($movie->getIsCheckedOut() ? "emprunté" : "disponible") . " avec une note moyenne de " . $movie->getAverageRating() . ".</p>";
 
-            // Album avec Chansons
+            // Album 
             $artist = new Artist("PNL");
             $song1 = new Song("Au DD", $artist->getName(), 242);
             $song2 = new Song("91's", $artist->getName(), 297);
